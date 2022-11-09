@@ -34,7 +34,7 @@ CONE_FILE=$SCRIPT_DIR/cone.py
 # FIXME: for a real use case, the trame application should already be
 # installed on the cluster, and this installation should be skipped
 # (and instead, do something like activating the appropriate venv).
-pip3 install --user -r $REQUIREMENTS_FILE
+pip3 install --user --no-deps -r $REQUIREMENTS_FILE
 
 # Launch the Trame App
 set -x

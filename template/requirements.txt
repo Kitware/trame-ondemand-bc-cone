@@ -9,16 +9,7 @@ multidict==4.7.6
 PyYAML==6.0
 trame==2.2.1
 trame-client==2.3.1
-trame-components==2.0.4
-trame-deckgl==2.0.1
-trame-markdown==2.0.2
-trame-matplotlib==2.0.1
-trame-plotly==2.0.1
-trame-rca==0.3.0
-trame-router==2.0.1
 trame-server==2.5.1
-trame-simput==2.2.2
-trame-vega==2.0.2
 trame-vtk==2.0.9
 trame-vuetify==2.0.2
 typing-extensions==4.1.1

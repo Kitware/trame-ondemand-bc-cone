@@ -26,9 +26,10 @@ echo "TIMING - Starting Trame App at: $(date)"
 
 # Find the script directory. Our other files should be in there too.
 SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
+APP_DIR=$SCRIPT_DIR/app
 
-REQUIREMENTS_FILE=$SCRIPT_DIR/requirements.txt
-CONE_FILE=$SCRIPT_DIR/cone.py
+REQUIREMENTS_FILE=$APP_DIR/requirements.txt
+CONE_FILE=$APP_DIR/cone.py
 
 # Install our dependencies (just trame, with the dependencies fixed)
 # FIXME: for a real use case, the trame application should already be

@@ -28,9 +28,9 @@ file to activate this virtual environment rather than installing the
 
 ## Running the Application
 
-1. From the Open OnDemand Dashboard, click "Develop"->"My Sandbox Apps (Development)" from the top menu bar (if you don't see this, please see [this page](https://osc.github.io/ood-documentation/master/app-development/enabling-development-mode.html).
+1. From the Open OnDemand Dashboard, click "Develop"->"My Sandbox Apps (Development)" from the top menu bar (if you don't see this, please see [this page](https://osc.github.io/ood-documentation/master/app-development/enabling-development-mode.html)).
 2. Click "New App", then "Clone Existing App". Put in "trame-example" for the "Directory Name", and then "https://github.com/kitware/trame-ondemand-bc-cone" for the "Git remote". Click "Submit".
-3. Click the "Launch Trame App" button on this page or go to "Develop"->"my Sandbox Apps (Development)" and click it from there.
+3. Click the "Launch Trame App" button on this page or go to "Develop"->"My Sandbox Apps (Development)" and click it from there.
 4. Enter relevant settings (for the docker example cluster, you do not need to modify anything - leave "Account" and "Partition" blank). Then click "Launch".
 5. Wait until the example trame application is running (for the docker example cluster, it may take ~15 seconds or so to first install the example trame application). Then click the "Connect to Trame App" button.
 6. You should be able to see the Trame cone example and interact with it!

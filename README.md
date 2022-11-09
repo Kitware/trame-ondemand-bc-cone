@@ -34,3 +34,5 @@ file to activate this virtual environment rather than installing the
 4. Enter relevant settings (for the docker example cluster, you do not need to modify anything - leave "Account" and "Partition" blank). Then click "Launch".
 5. Wait until the example trame application is running (for the docker example cluster, it may take ~15 seconds or so to first install the example trame application). Then click the "Connect to Trame App" button.
 6. You should be able to see the Trame cone example and interact with it!
+
+![Screenshot from 2022-11-09 16-30-11](https://user-images.githubusercontent.com/9558430/200946781-6ba6f6a8-78c0-418a-9e98-4c2f93e8c02f.png)

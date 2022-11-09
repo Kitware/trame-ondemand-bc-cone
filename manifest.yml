@@ -1,0 +1,7 @@
+---
+name: Trame App
+category: Interactive Apps
+subcategory: Applications
+role: batch_connect
+description: |
+  This app will launch a sample Trame application.
